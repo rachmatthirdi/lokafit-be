@@ -1,3 +1,2 @@
-# Configuration for Railway deployment to fix OpenCV crashes
 [phases.setup]
-nixPkgs = ["pkgs.libglvnd", "pkgs.python310", "pkgs.gcc"]
+nixPkgs = ["python312", "pip"]
